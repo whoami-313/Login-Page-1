@@ -1,0 +1,28 @@
+{
+  "name": "login-page-1",
+  "version": "1.1.5",
+  "description": "A magical login page with Html 5, Css 3, JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoami-313/Login-Page-1.git"
+  },
+  "keywords": [
+    "login-page"
+  ],
+  "author": "whoami313",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whoami-313/Login-Page-1/issues"
+  },
+  "homepage": "https://github.com/whoami-313/Login-Page-1#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "clientjs": "^0.2.1",
+    "jquery": "^3.6.1",
+    "sweetalert2": "^11.6.8"
+  }
+}
