@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "segoe";
+    src: url(../fonts/SegoeUI/web/Segoe-UI.ttf) format("truetype");
+}
+@font-face {
+    font-family: "rale";
+    src: url(../fonts/RaleWay/static/Raleway-MediumItalic.ttf) format("truetype");
+}
+body {
+    background-color: #070E13;
+    font-family: rale;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    padding: 0;
+    margin: 50px auto;
+}
+.logo img {
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+}
+.logo p {
+    margin: 20px auto;
+    color: #ffffff90;
+    font-size: 30px;
+    word-spacing: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 185px;
+}
+.logo p:hover {
+    color: #0fa;
+    transform: scale(1.1) rotate(360deg);
+}
+.inputbox {
+    position: relative;
+    background-color: #050a10;
+    padding: 20px;
+    width: 400px;
+    margin: -30px auto;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    box-shadow: 7px 7px 10px #000;
+}
+.inputbox input, label {
+    display: block;
+}
+.inputbox label {
+    color: #ffffff90;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.inputbox label:hover {
+    color: #fff;
+}
+#passlab {
+    margin: 20px 0 0 0;
+}
+.inputbox input {
+    outline: transparent;
+    border: 2px solid #0fa;
+    border-radius: 10px;
+    background-color: #070a13;
+    padding: 10px;
+    width: 96%;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    color: #fff;
+}
+.inputbox input:focus {
+    border: 2px solid #0f0;
+}
+.inputbox button {
+    outline: transparent;
+    border: 2px solid transparent;
+    color: #000;
+    background-color: #0fa;
+    border-radius: 10px;
+    padding: 7px 70px;
+    margin: 40px 0 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.inputbox button:hover {
+    color: #fff;
+    box-shadow: 0 0 15px #0fa;
+}
+.inputbox a {
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    text-decoration: none;
+    color: #0fa;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.inputbox a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
